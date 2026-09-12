@@ -1,0 +1,73 @@
+{
+    "geode": "5.7.1",
+    "gd": {
+        "win": "*"
+    },
+    "version": "1.0.2",
+    "id": "vappeppr.autogrinder",
+    "name": "AutoGrinder",
+    "developer": "vappeppr",
+    "description": "Помощник для длинных сессий с онлайн-уровнями и списками. QOL helper for long Geometry Dash sessions.",
+    "links": {
+    "source": "https://github.com/vappeppr/AutoGrinder",
+    "homepage": "https://github.com/vappeppr/AutoGrinder"
+    },
+    "issues": {
+        "info": "Report problems on GitHub Issues.",
+        "url": "https://github.com/vappeppr/AutoGrinder/issues"
+    },
+    "settings": {
+        "bot-enabled": {
+            "type": "bool",
+            "default": false,
+            "name": "Enable Bot"
+        },
+        "base-speed": {
+            "type": "float",
+            "default": 6.0,
+            "min": 1.0,
+            "max": 30.0,
+            "name": "Base Speed (Speedhack)"
+        },
+        "min-fps-threshold": {
+            "type": "int",
+            "default": 40,
+            "min": 20,
+            "max": 120,
+            "name": "Min FPS (slow down below)"
+        },
+        "enable-noclip": {
+            "type": "bool",
+            "default": true,
+            "name": "Enable Noclip"
+        },
+        "toggle-bot-key": {
+            "type": "keybind",
+            "name": "Toggle Bot Hotkey",
+            "default": "F6"
+        },
+        "open-settings-key": {
+            "type": "keybind",
+            "name": "Open Settings Hotkey",
+            "default": "F8"
+        },
+        "enable-autoclicker": {
+            "type": "bool",
+            "default": true,
+            "name": "Enable Autoclicker"
+        },
+        "autoclicker-min-fps": {
+            "type": "int",
+            "default": 35,
+            "min": 15,
+            "max": 120,
+            "name": "Autoclicker Min FPS (disable below)"
+        },
+        "unlock-nice-shot-key": {
+            "type": "keybind",
+            "name": "Unlock Nice shot! (Cube 50)",
+            "description": "Officially unlocks Nice shot! in game and Steam",
+            "default": "F9"
+        }
+    }
+}
