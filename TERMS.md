@@ -1,124 +1,161 @@
-# AutoGrinder — Terms of Use / Пользовательское соглашение
+# AutoGrinder
 
-Last updated / Дата обновления: 2026-09-12
+[Русский](#polzovatelskoe-soglashenie) · [English](#terms-of-use)
 
-By installing, copying, launching or otherwise using AutoGrinder (the “Software”), you confirm that you have read, understood and accepted these Terms in full. If you do not agree, you must not use the Software and must uninstall it immediately.
-
-Устанавливая, копируя, запуская или иным образом используя AutoGrinder («ПРОГРАММА»), вы подтверждаете, что прочитали, поняли и приняли настоящее Соглашение целиком. Если вы не согласны — не используйте Программу и немедленно удалите её.
+Дата вступления в силу / Effective date: 19 September 2026
 
 ---
 
-## 1. Ownership / Право собственности
+# Пользовательское соглашение
 
-1.1. The Software, including without limitation its source code, compiled builds, configuration files, name, design and documentation, is the exclusive intellectual property of **Maxim Medvedev (vappeppr)** (the “Owner”).
+Настоящий документ является пользовательским соглашением и лицензионным договором в отношении программного обеспечения AutoGrinder, включая исходный код, скомпилированные сборки, файлы конфигурации, документацию, название и сопутствующие материалы (далее — «Программа»).
 
-1.1. Программа, включая исходный код, собранные сборки, файлы конфигурации, название, оформление и документацию, является исключительной интеллектуальной собственностью **Максима Медведева (vappeppr)** («Правообладатель»).
+Устанавливая, копируя, запуская или иным образом используя Программу, вы подтверждаете, что ознакомились с Соглашением, поняли его и принимаете его целиком. Если вы не согласны хотя бы с одним из условий, вы обязаны немедленно прекратить использование и удалить все копии Программы.
 
-1.2. No rights are granted to you except a limited, personal, non-exclusive, non-transferable and revocable right to install and use the Software for your own private use, subject to these Terms.
+## 1. Правообладатель
 
-1.2. Вам не передаётся никаких прав, кроме ограниченного, личного, неисключительного, неотчуждаемого и отзываемого права установить и использовать Программу для личных целей на условиях настоящего Соглашения.
+1.1. Исключительные имущественные и исключительные авторские права на Программу принадлежат **Максиму Медведеву** (псевдоним **vappeppr**), далее — «Правообладатель».
 
----
+1.2. Настоящее Соглашение не означает отчуждения прав и не создаёт совместного правообладания.
 
-## 2. Prohibited distribution / Запрет распространения
+## 2. Объём предоставляемых прав
 
-Without the Owner’s prior written permission it is strictly prohibited to:
+2.1. Правообладатель предоставляет вам ограниченную, личную, неисключительную, неотчуждаемую, несублицензируемую и отзываемую лицензию на установку и использование Программы исключительно для личных некоммерческих целей.
 
-Без предварительного письменного согласия Правообладателя строго запрещается:
+2.2. Иные права, прямо не предоставленные настоящим Соглашением, сохраняются за Правообладателем.
 
-- copy, reproduce, publish or upload the Software or any part of it;
-- копировать, воспроизводить, публиковать или выкладывать Программу или её часть;
-- redistribute the Software in any form (including `.geode`, archives, mirrors, file-sharing, messengers, forums or websites);
-- распространять Программу в любой форме (включая `.geode`, архивы, зеркала, файлообменники, мессенджеры, форумы и сайты);
-- modify, decompile, reverse engineer or create derivative works;
-- изменять, декомпилировать, исследовать или создавать производные работы;
-- sell, rent, sublicense or commercially exploit the Software;
-- продавать, сдавать в аренду, сублицензировать или иначе использовать Программу в коммерческих целях;
-- remove or alter copyright notices.
-- удалять или изменять уведомления об авторских правах.
+## 3. Запрещённые действия
 
-Any unauthorized copy or redistribution is a violation of these Terms and of applicable copyright law.
+Без предварительного письменного согласия Правообладателя запрещается:
 
-Любая несанкционированная копия или распространение является нарушением настоящего Соглашения и действующего авторского права.
+- копировать, воспроизводить, опубликовывать и размещать Программу в сети «Интернет»;
+- распространять Программу в любой форме, включая файлы `.geode`, архивы, зеркала, файлообменники, мессенджеры, форумы, каталоги модификаций и сайты;
+- изменять, декомпилировать, дизассемблировать, исследовать исходный код или создавать производные произведения;
+- продавать, сдавать в аренду, сублицензировать или иным образом использовать Программу в коммерческих целях;
+- удалять или изменять уведомления об авторских правах;
+- выдавать себя за автора или правообладателя Программы.
 
----
+Нарушение настоящего раздела является нарушением исключительных прав Правообладателя.
 
-## 3. No affiliation / Отсутствие связи с издателями
+## 4. Отсутствие связи с издателями
 
-The Software is an unofficial third-party modification. It is not created, endorsed, sponsored or supported by RobTop Games, Steam, Valve or the Geode project.
+Программа является неофициальной сторонней модификацией и не связана с RobTop Games, Valve Corporation, Steam, проектом Geode или их правообладателями. Указанные лица не одобряли, не спонсировали и не поддерживают Программу.
 
-Программа является неофициальной сторонней модификацией. Она не создана, не одобрена и не поддерживается RobTop Games, Steam, Valve или проектом Geode.
+## 5. Риски
 
----
+5.1. Вы понимаете и принимаете, что использование неофициальных модификаций может повлечь, в том числе:
 
-## 4. Assumption of risk / Риски
+- сбои, зависания и нестабильную работу игры;
+- утрату, повреждение или искажение файлов сохранения;
+- некорректное отображение статистики, прогресса, наград или достижений;
+- ограничения, сброс или иные меры в отношении игрового или платформенного аккаунта;
+- несовместимость с другими модификациями, обновлениями игры или загрузчика модификаций.
 
-You acknowledge that use of unofficial modifications may result in, without limitation:
+5.2. Вы используете Программу **исключительно на свой риск**.
 
-Вы признаёте, что использование неофициальных модификаций может привести, в том числе, к:
+## 6. Ответственность пользователя
 
-- game crashes and instability;
-- сбоям и нестабильной работе игры;
-- loss or corruption of save data;
-- потере или повреждению сохранений;
-- incorrect statistics, progress or rewards;
-- некорректной статистике, прогрессу или наградам;
-- restrictions, resets or other actions against your game or platform account;
-- ограничениям, сбросу или иным мерам в отношении вашего игрового или платформенного аккаунта;
-- incompatibility with other modifications or future game updates.
-- несовместимости с другими модификациями или будущими обновлениями игры.
+Вы самостоятельно и в полном объёме несёте ответственность за:
 
-You use the Software **solely at your own risk**.
-
-Вы используете Программу **исключительно на свой риск**.
-
----
-
-## 5. Limitation of liability / Ограничение ответственности
-
-TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE OWNER SHALL NOT BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR PUNITIVE DAMAGES, INCLUDING WITHOUT LIMITATION LOSS OF DATA, LOSS OF PROGRESS, ACCOUNT SANCTIONS, LOST PROFITS, OR BUSINESS INTERRUPTION, ARISING OUT OF OR RELATED TO THE USE OF OR INABILITY TO USE THE SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
-
-В МАКСИМАЛЬНОЙ СТЕПЕНИ, ДОПУЩЕННОЙ ЗАКОНОМ, ПРАВООБЛАДАТЕЛЬ НЕ НЕСЁТ ОТВЕТСТВЕННОСТИ ЗА ЛЮБЫЕ ПРЯМЫЕ, КОСВЕННЫЕ, СЛУЧАЙНЫЕ, СПЕЦИАЛЬНЫЕ ИЛИ ШТРАФНЫЕ УБЫТКИ, В ТОМ ЧИСЛЕ ЗА УТРАТУ ДАННЫХ, ПРОГРЕССА, САНКЦИИ АККАУНТА, УПУЩЕННУЮ ВЫГОДУ ИЛИ ПРОСТОЙ, ВОЗНИКШИЕ ВСЛЕДСТВИЕ ИСПОЛЬЗОВАНИЯ ИЛИ НЕВОЗМОЖНОСТИ ИСПОЛЬЗОВАТЬ ПРОГРАММУ, ДАЖЕ ЕСЛИ ПРАВООБЛАДАТЕЛЬ БЫЛ УВЕДОМЛЁН О ВОЗМОЖНОСТИ ТАКИХ УБЫТКОВ.
-
-**All responsibility for the consequences of using the Software rests solely with the user.**
-
-**Вся ответственность за последствия использования Программы лежит исключительно на пользователе.**
-
----
-
-## 6. User obligations / Обязанности пользователя
-
-You are solely responsible for:
-
-Вы самостоятельно несёте ответственность за:
-
-- compliance with Geometry Dash, Steam and any other platform rules;
 - соблюдение правил Geometry Dash, Steam и иных платформ;
+- сохранность своего аккаунта, устройства и файлов сохранения;
+- последствия своих действий при установленной Программе;
+- возможный конфликт Программы с правилами соответствующей платформы.
+
+## 7. Ограничение ответственности Правообладателя
+
+7.1. Программа предоставляется «как есть» и «как доступно», без гарантий любого рода, явных или подразумеваемых, в том числе без гарантий товарной пригодности, пригодности для конкретной цели и ненарушения прав третьих лиц.
+
+7.2. В максимальной степени, допущенной применимым законодательством, Правообладатель не несёт ответственности за прямые, косвенные, случайные, штрафные или иные убытки, включая утрату данных, прогресса, доступа к аккаунту, упущенную выгоду и затраты времени, возникшие в связи с использованием Программы или невозможностью её использовать.
+
+7.3. **Вся ответственность за последствия использования Программы лежит исключительно на пользователе.**
+
+## 8. Прекращение
+
+Правообладатель вправе в любое время отозвать предоставленную лицензию. После прекращения вы обязаны прекратить использование и уничтожить все копии Программы, находящиеся в вашем распоряжении.
+
+## 9. Применимое право
+
+К отношениям, связанным с исключительными правами на Программу, применяется законодательство Российской Федерации, если иное не следует из императивных норм права страны пользователя. Настоящий документ не является юридической консультацией.
+
+## 10. Акцепт
+
+Установка, запуск или фактическое использование Программы признаётся акцептом настоящего Соглашения.
+
+---
+
+# Terms of Use
+
+This document is a user agreement and a licence in respect of the AutoGrinder software, including its source code, compiled builds, configuration files, documentation, name and related materials (the “Software”).
+
+By installing, copying, launching or otherwise using the Software, you confirm that you have read, understood and accepted these Terms in full. If you do not agree with any provision, you must stop using the Software immediately and delete all copies.
+
+## 1. Owner
+
+1.1. Exclusive proprietary and copyright rights in the Software belong to **Maxim Medvedev** (handle **vappeppr**) (the “Owner”).
+
+1.2. These Terms do not transfer ownership and do not create joint ownership.
+
+## 2. Licence grant
+
+2.1. The Owner grants you a limited, personal, non-exclusive, non-transferable, non-sublicensable and revocable licence to install and use the Software solely for private, non-commercial purposes.
+
+2.2. All rights not expressly granted remain with the Owner.
+
+## 3. Prohibited conduct
+
+Without the Owner’s prior written permission you must not:
+
+- copy, reproduce, publish or upload the Software;
+- redistribute the Software in any form, including `.geode` files, archives, mirrors, file-sharing services, messengers, forums, mod catalogues and websites;
+- modify, decompile, disassemble, reverse engineer the Software or create derivative works;
+- sell, rent, sublicense or otherwise commercially exploit the Software;
+- remove or alter copyright notices;
+- present yourself as the author or owner of the Software.
+
+Any such act is an infringement of the Owner’s exclusive rights.
+
+## 4. No affiliation
+
+The Software is an unofficial third-party modification. It is not affiliated with, endorsed, sponsored or supported by RobTop Games, Valve Corporation, Steam, the Geode project or their respective rights holders.
+
+## 5. Assumption of risk
+
+5.1. You understand and accept that unofficial modifications may result in, among other things:
+
+- crashes, freezes and unstable gameplay;
+- loss, corruption or distortion of save data;
+- incorrect statistics, progress, rewards or achievements;
+- restrictions, resets or other measures affecting your game or platform account;
+- incompatibility with other modifications, game updates or the mod loader.
+
+5.2. You use the Software **solely at your own risk**.
+
+## 6. User responsibility
+
+You are solely and fully responsible for:
+
+- compliance with Geometry Dash, Steam and other platform rules;
 - the security of your account, device and save files;
-- безопасность своего аккаунта, устройства и сохранений;
-- any actions performed while the Software is installed.
-- любые действия, совершаемые при установленной Программе.
+- the consequences of your actions while the Software is installed;
+- any conflict between the Software and the applicable platform rules.
 
----
+## 7. Disclaimer and limitation of liability
 
-## 7. “As is” / «Как есть»
+7.1. The Software is provided “as is” and “as available”, without warranties of any kind, express or implied, including warranties of merchantability, fitness for a particular purpose and non-infringement.
 
-THE SOFTWARE IS PROVIDED “AS IS” AND “AS AVAILABLE”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT.
+7.2. To the maximum extent permitted by applicable law, the Owner shall not be liable for any direct, indirect, incidental, punitive or other damages, including loss of data, progress, account access, profits or time, arising out of the use of or inability to use the Software.
 
-ПРОГРАММА ПРЕДОСТАВЛЯЕТСЯ «КАК ЕСТЬ» И «КАК ДОСТУПНО», БЕЗ КАКИХ-ЛИБО ГАРАНТИЙ, ЯВНЫХ ИЛИ ПОДРАЗУМЕВАЕМЫХ, ВКЛЮЧАЯ ГАРАНТИИ ТОРГОПРИГОДНОСТИ, ПРИГОДНОСТИ ДЛЯ ОПРЕДЕЛЁННОЙ ЦЕЛИ И НЕНАРУШЕНИЯ ПРАВ.
+7.3. **All responsibility for the consequences of using the Software rests solely with the user.**
 
----
+## 8. Termination
 
-## 8. Termination / Прекращение
+The Owner may revoke the licence at any time. Upon termination you must stop using the Software and destroy all copies in your possession.
 
-The Owner may revoke your right to use the Software at any time. Upon termination you must delete all copies of the Software in your possession.
+## 9. Governing law
 
-Правообладатель может в любой момент отозвать ваше право на использование Программы. После прекращения вы обязаны удалить все имеющиеся у вас копии.
+Matters relating to exclusive rights in the Software are governed by the law of the Russian Federation, unless mandatory rules of the user’s country of residence require otherwise. This document is not legal advice.
 
----
+## 10. Acceptance
 
-## 9. Acceptance / Акцепт
-
-Installation or use of the Software constitutes acceptance of these Terms.
-
-Установка или использование Программы означает принятие настоящего Соглашения.
+Installation, launch or actual use of the Software constitutes acceptance of these Terms.
