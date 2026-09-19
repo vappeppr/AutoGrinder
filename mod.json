@@ -3,17 +3,23 @@
     "gd": {
         "win": "*"
     },
-    "version": "1.0.2",
+    "version": "1.0.3",
     "id": "vappeppr.autogrinder",
     "name": "AutoGrinder",
     "developer": "vappeppr",
     "description": "Помощник для длинных сессий с онлайн-уровнями и списками. QOL helper for long Geometry Dash sessions.",
+    "tags": [
+        "cheat",
+        "gameplay",
+        "utility",
+        "online"
+    ],
     "links": {
-    "source": "https://github.com/vappeppr/AutoGrinder",
-    "homepage": "https://github.com/vappeppr/AutoGrinder"
+        "source": "https://github.com/vappeppr/AutoGrinder",
+        "homepage": "https://github.com/vappeppr/AutoGrinder"
     },
     "issues": {
-        "info": "Report problems on GitHub Issues.",
+        "info": "Сообщайте о проблемах через GitHub Issues. Report problems on GitHub Issues.",
         "url": "https://github.com/vappeppr/AutoGrinder/issues"
     },
     "settings": {
