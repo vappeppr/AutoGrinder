@@ -3,11 +3,11 @@
     "gd": {
         "win": "*"
     },
-    "version": "1.0.3",
+    "version": "1.8.0",
     "id": "vappeppr.autogrinder",
     "name": "AutoGrinder",
     "developer": "vappeppr",
-    "description": "Помощник для длинных сессий с онлайн-уровнями и списками. QOL helper for long Geometry Dash sessions.",
+    "description": "Fast session helper for online levels, lists, dailies and gauntlets. Tagged cheat. Use at your own risk.",
     "tags": [
         "cheat",
         "gameplay",
@@ -19,61 +19,63 @@
         "homepage": "https://github.com/vappeppr/AutoGrinder"
     },
     "issues": {
-        "info": "Сообщайте о проблемах через GitHub Issues. Report problems on GitHub Issues.",
+        "info": "Report problems on GitHub Issues.",
         "url": "https://github.com/vappeppr/AutoGrinder/issues"
     },
     "settings": {
-        "bot-enabled": {
-            "type": "bool",
-            "default": false,
-            "name": "Enable Bot"
-        },
-        "base-speed": {
-            "type": "float",
-            "default": 6.0,
-            "min": 1.0,
-            "max": 30.0,
-            "name": "Base Speed (Speedhack)"
-        },
-        "min-fps-threshold": {
-            "type": "int",
-            "default": 40,
-            "min": 20,
-            "max": 120,
-            "name": "Min FPS (slow down below)"
-        },
-        "enable-noclip": {
-            "type": "bool",
-            "default": true,
-            "name": "Enable Noclip"
-        },
-        "toggle-bot-key": {
-            "type": "keybind",
-            "name": "Toggle Bot Hotkey",
-            "default": "F6"
-        },
-        "open-settings-key": {
-            "type": "keybind",
-            "name": "Open Settings Hotkey",
-            "default": "F8"
-        },
-        "enable-autoclicker": {
-            "type": "bool",
-            "default": true,
-            "name": "Enable Autoclicker"
-        },
-        "autoclicker-min-fps": {
-            "type": "int",
-            "default": 35,
-            "min": 15,
-            "max": 120,
-            "name": "Autoclicker Min FPS (disable below)"
-        },
-        "unlock-nice-shot-key": {
-            "type": "keybind",
-            "name": "Unlock Nice shot! (Cube 50)",
-            "description": "Officially unlocks Nice shot! in game and Steam",
-            "default": "F9"
-        }
+        "title-bot": { "type": "title", "name": "Bot" },
+        "bot-enabled": { "type": "bool", "default": false, "name": "Enable bot" },
+        "work-mode": { "type": "int", "default": 0, "min": 0, "max": 5, "name": "Mode: 0 auto, 1 search, 2 lists, 3 daily, 4 gauntlet, 5 packs" },
+        "grind-profile": { "type": "int", "default": 0, "min": 0, "max": 2, "name": "Profile: 0 normal, 1 calm, 2 max" },
+        "remind-backup": { "type": "bool", "default": true, "name": "Remind to backup save" },
+        "show-hud": { "type": "bool", "default": true, "name": "Show HUD" },
+        "session-limit": { "type": "int", "default": 0, "min": 0, "max": 5000, "name": "Level limit (0 = none)" },
+        "session-minutes": { "type": "int", "default": 0, "min": 0, "max": 600, "name": "Minute limit (0 = none)" },
+        "goal-levels": { "type": "int", "default": 0, "min": 0, "max": 5000, "name": "Stop after N levels (0 = off)" },
+        "goal-stars": { "type": "int", "default": 0, "min": 0, "max": 20000, "name": "Stop after N stars (0 = off)" },
+        "min-pause": { "type": "float", "default": 2.8, "min": 1.0, "max": 10.0, "name": "Pause between levels" },
+        "title-speed": { "type": "title", "name": "Speed and input" },
+        "base-speed": { "type": "float", "default": 6.0, "min": 1.0, "max": 30.0, "name": "Classic speed" },
+        "min-fps-threshold": { "type": "int", "default": 40, "min": 20, "max": 120, "name": "Slow down if FPS below" },
+        "enable-noclip": { "type": "bool", "default": true, "name": "Noclip" },
+        "enable-autoclicker": { "type": "bool", "default": true, "name": "Autoclicker" },
+        "autoclicker-min-fps": { "type": "int", "default": 35, "min": 15, "max": 120, "name": "Autoclicker min FPS" },
+        "title-filters": { "type": "title", "name": "Filters" },
+        "skip-completed": { "type": "bool", "default": true, "name": "Skip completed" },
+        "skip-unrated": { "type": "bool", "default": false, "name": "Skip unrated" },
+        "min-stars": { "type": "int", "default": 0, "min": 0, "max": 10, "name": "Min stars (0 = any)" },
+        "skip-demons": { "type": "bool", "default": false, "name": "Skip demons" },
+        "level-type-filter": { "type": "int", "default": 0, "min": 0, "max": 2, "name": "Type: 0 all, 1 classic, 2 platformer" },
+        "min-length": { "type": "int", "default": 0, "min": 0, "max": 4, "name": "Min length (0 Tiny ... 4 XL)" },
+        "max-length": { "type": "int", "default": 4, "min": 0, "max": 4, "name": "Max length (0 Tiny ... 4 XL)" },
+        "max-objects": { "type": "int", "default": 80000, "min": 1000, "max": 200000, "name": "Max objects" },
+        "title-keys": { "type": "title", "name": "Hotkeys" },
+        "open-panel-key": { "type": "keybind", "name": "Control panel", "default": "F5" },
+        "toggle-bot-key": { "type": "keybind", "name": "Toggle bot", "default": "F6" },
+        "pause-bot-key": { "type": "keybind", "name": "Pause session", "default": "F7" },
+        "open-settings-key": { "type": "keybind", "name": "Open Geode settings", "default": "F8" },
+        "page-sound": { "type": "bool", "default": true, "name": "Sound on page / session end" },
+        "pause-low-fps": { "type": "bool", "default": true, "name": "Pause on very low FPS" },
+        "pause-fps": { "type": "int", "default": 18, "min": 8, "max": 40, "name": "Pause if FPS below" },
+        "grant-all-achievements": { "type": "bool", "default": false, "name": "Grant all missing achievements" },
+        "grant-all-paths": { "type": "bool", "default": false, "name": "Complete all Paths of Power" },
+        "title-shards": { "type": "title", "name": "Shards of Power (number = total, not plus)" },
+        "shard-fire": { "type": "int", "default": 0, "min": 0, "max": 100, "name": "Fire shards" },
+        "shard-ice": { "type": "int", "default": 0, "min": 0, "max": 100, "name": "Ice shards" },
+        "shard-poison": { "type": "int", "default": 0, "min": 0, "max": 100, "name": "Poison shards" },
+        "shard-shadow": { "type": "int", "default": 0, "min": 0, "max": 100, "name": "Shadow shards" },
+        "shard-lava": { "type": "int", "default": 0, "min": 0, "max": 100, "name": "Lava shards" },
+        "shard-earth": { "type": "int", "default": 0, "min": 0, "max": 100, "name": "Earth shards" },
+        "shard-blood": { "type": "int", "default": 0, "min": 0, "max": 100, "name": "Blood shards" },
+        "shard-metal": { "type": "int", "default": 0, "min": 0, "max": 100, "name": "Metal shards" },
+        "shard-light": { "type": "int", "default": 0, "min": 0, "max": 100, "name": "Light shards" },
+        "shard-soul": { "type": "int", "default": 0, "min": 0, "max": 100, "name": "Soul shards" },
+        "grant-shards": { "type": "bool", "default": false, "name": "Write shard amounts" },
+        "title-extra": { "type": "title", "name": "Chests / packs / safety" },
+        "auto-chests": { "type": "bool", "default": true, "name": "Auto-open 4h/24h chests" },
+        "pack-max-stars": { "type": "int", "default": 10, "min": 0, "max": 10, "name": "Map pack max stars (0 = off)" },
+        "pause-unfocused": { "type": "bool", "default": false, "name": "Pause inputs when GD unfocused" },
+        "skip-xdbot-clicks": { "type": "bool", "default": true, "name": "Do not click if xdBot is loaded" },
+        "quiet-music": { "type": "bool", "default": true, "name": "Mute music while bot runs" }
     }
 }
