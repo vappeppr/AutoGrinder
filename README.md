@@ -1,59 +1,26 @@
 # AutoGrinder
 
-Помощник для Geometry Dash на базе Geode. Сделан для длинных сессий с онлайн-уровнями и списками: меньше лишних нажатий между экранами, ровный темп и более спокойный цикл прохождения.
+Geode mod for Geometry Dash 2.2.
 
-A Geode quality-of-life helper for Geometry Dash. It is made for long sessions with online levels and lists: less extra clicking between screens, a steady pace, and a simpler grind loop.
+Helper for long sessions with online levels. It walks search pages, lists, dailies, gauntlets and map packs. The loop is fast on purpose. Tagged **cheat** on the Geode index.
 
-[Русский](#russkij) · [English](#english)
+Not affiliated with RobTop Games, Steam or Geode.
 
----
+## Install
 
-## Русский
+1. Geode for GD 2.2
+2. Drop `vappeppr.autogrinder.geode` into the mods folder, or install from the built file after `geode build`
+3. Accept terms on first start
 
-### Установка
+## Use
 
-1. Установите [Geode](https://geode-sdk.org).
-2. Положите `vappeppr.autogrinder.geode` в папку модификаций Geometry Dash либо установите через загрузчик в игре, если сборка опубликована.
+1. Open **online search** (or a list / daily / gauntlet / pack screen).
+2. Set filters yourself. The mod does not change your filters.
+3. **F5** — panel. **F6** — start / stop. **F7** — pause. **F8** — settings.
+4. Leave the window on that screen. Stop with F6 when you are done.
 
-### Требования
+Backup `CCGameManager.dat` first. Read [TERMS_EN.md](TERMS_EN.md) / [TERMS_RU.md](TERMS_RU.md).
 
-- Geometry Dash (Windows)
-- Geode 5.7+
+## License
 
-### Права
-
-Авторское право (c) 2026 Максим Медведев (vappeppr). Все права защищены.
-
-Проект является исключительной собственностью правообладателя. Распространение без письменного согласия запрещено.
-
-Полный текст: [TERMS.md](TERMS.md) и [LICENSE](LICENSE).
-
-### Отказ от гарантий
-
-Программа предоставляется «как есть». Устанавливая или используя AutoGrinder, вы принимаете [TERMS.md](TERMS.md). Все риски и вся ответственность лежат исключительно на пользователе.
-
----
-
-## English
-
-### Install
-
-1. Install [Geode](https://geode-sdk.org).
-2. Place `vappeppr.autogrinder.geode` into the Geometry Dash mods folder, or install it through the in-game loader if the build is published there.
-
-### Requirements
-
-- Geometry Dash (Windows)
-- Geode 5.7+
-
-### Rights
-
-Copyright (c) 2026 Maxim Medvedev (vappeppr). All rights reserved.
-
-This project is the exclusive property of the copyright holder. Redistribution without written permission is prohibited.
-
-Full text: [TERMS.md](TERMS.md) and [LICENSE](LICENSE).
-
-### Disclaimer
-
-The software is provided “as is”. By installing or using AutoGrinder you accept [TERMS.md](TERMS.md). All risk and all responsibility remain solely with the user.
+All rights reserved. Redistribution is prohibited.
